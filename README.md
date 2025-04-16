@@ -12,7 +12,7 @@ cmake -Wno-dev -DPCB=X7 -DPCBREV=MT12 -DDEFAULT_MODE=2 -DCMAKE_BUILD_TYPE=Releas
 
 make arm-none-eabi-configure
 
-make -C arm-none-eabi -j`nproc` firmware
+`make -C arm-none-eabi -j`nproc` firmware`
 
 cd arm-none-eabi
 
