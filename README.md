@@ -16,5 +16,5 @@ make -C arm-none-eabi -j`nproc` firmware
 cd arm-none-eabi
 
 mv firmware.bin YOUR_FILE_NAME.bin
-<pre>
+</pre>pre>
 Then go to the arm-none-eabi folder under build, and you should see your firmware, which you can right click and download.
