@@ -5,6 +5,7 @@ To build this firmware, here are the steps i used.
 
 
 #2 - (Terminal in GitPod)
+
 cmake -Wno-dev -DPCB=X7 -DPCBREV=MT12 -DDEFAULT_MODE=2 -DCMAKE_BUILD_TYPE=Release
 
 make arm-none-eabi-configure
